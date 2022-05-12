@@ -31,7 +31,7 @@ def convert(date_time, client_type, value_lakewood, value_bridgewood, value_ridg
         date_time = date_time[:additional_character:]
         date = datetime.datetime.strptime(date_time, date_format)
 
-    lakewood = [3, 110, 80, 90, 80]pw
+    lakewood = [3, 110, 80, 90, 80]
     bridgewood = [4, 160, 110, 60, 50]
     ridgewood = [5, 220, 100, 150, 40]
 
